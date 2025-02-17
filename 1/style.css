@@ -7,7 +7,7 @@
 .log img{
     display: flex;
     margin: auto;
-    max-width: 20px;
+    max-width: 150px;
 }
 
 body {
@@ -38,7 +38,11 @@ form {
     font-weight: 400;
 }
 
-.email, .password {
+.email {
+    margin-bottom: 16px;
+}
+
+.password {
     margin-bottom: 16px;
 }
 
@@ -59,7 +63,7 @@ input {
 }
 
 button {
-    font-family: 'Sansita', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     width: 100%;
     background-color: black;
     color: white;
@@ -77,69 +81,11 @@ button {
     margin-top: 14px;
 }
 
-
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#fourth img {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
 }
-
-.log img{
-    display: block;
-    margin: auto;
-    max-width: 200px;
-}
-
-.text {
-    color: #121212;
-    font-size: 24px;
-    margin: 0 auto 32px;
-    text-align: center;
-}
-
-form {
-    max-width: 400px;
-}
-
-input,
-button {
-    display: block;
-    width: 100%;
-}
-
-label {
-    font-size: 16px;
-    color: #61646b;
-}
-
-input {
-    margin-top: 8px;
-    border: 1px solid #afb1b6;
-    outline: none;
-    border-radius: 8px;
-    padding: 16px 8px;
-}
-
-.input-group {
-    margin-bottom: 24px;
-}
-
-button {
-    font-family: 'Sansita', sans-serif;
-    background: #121212;
-    border-radius: 16px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px;
-    margin-top: 32px;
-    cursor: pointer;
-}
-
-.the-end {
-    text-align: center;
-    font-size: 16px;
-    margin-top: 14px;
-} */
