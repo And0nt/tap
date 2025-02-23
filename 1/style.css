@@ -7,10 +7,11 @@
 .log img{
     display: flex;
     margin: auto;
-    max-width: 150px;
+    max-width: 20px;
 }
 
 body {
+    font-family: 'Work Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,29 +64,33 @@ input {
 }
 
 button {
-    font-family: 'Work Sans', sans-serif;
     width: 100%;
     background-color: black;
     color: white;
     border: none;
     padding: 16px;
-    border-radius: 15px;
+    border-radius: 16px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 8px;
+}
+
+.password-eye {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-eye img {
+    position: absolute;
+    right: 14px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
 
 .the-end {
     text-align: center;
     font-size: 16px;
     margin-top: 14px;
-}
-
-#fourth img {
-    position: absolute;
-    right: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
 }
