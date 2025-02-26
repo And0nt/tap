@@ -1,5 +1,5 @@
-let eye = document.querySelector(".eye")
-let inputPass = document.querySelector(".pass")
+let eye = eye.querySelector(".eye")
+let inputPass = pass.querySelector(".pass")
 
 eye.addEventListener("click", function() {
     if(inputPass.type === "password") {
@@ -13,8 +13,8 @@ eye.addEventListener("click", function() {
 });
 
 let info = {}
-let emailInput = document.querySelector("#email")
-let passInput = document.querySelector(".pass")
+let emailInput = email.querySelector("#email")
+let passInput = pass.querySelector(".pass")
 
 emailInput.addEventListener("input", function() {
     info.email = this.value
@@ -25,9 +25,9 @@ passInput.addEventListener("input", function(){
 });
 
 
-const emailLog = document.querySelector("#email")
-const passLog = document.querySelector(".pass")
-const button = document.querySelector(".back-info")
+const emailLog = email.querySelector("#email")
+const passLog = password.querySelector(".pass")
+const button = submit.querySelector(".submit")
 
 button.addEventListener("click", function(){
     console.log(emailLog.value)
